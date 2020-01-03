@@ -29,7 +29,7 @@ def onepuls_draw():
 if __name__ == '__main__':
     a=0
     while a < 10 :
-        onepuls_draw()
+        msg = onepuls_draw()
         a +=1
-        print("第 %d 次" % a ,onepuls_draw())
+        print("第 %d 次" % a ,msg)
         time.sleep(5) 
