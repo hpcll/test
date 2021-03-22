@@ -1,10 +1,6 @@
 #coding:utf-8
 import requests
 
-
-
-
-
 key = str(input("输入要查询的内容："))
 
 url= "https://yaohuo.me"
